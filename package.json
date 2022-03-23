@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/harshq/react-native-mentions.git"
+    "url": "git+https://github.com/fddayan/react-native-mentions.git"
   },
   "keywords": [
     "react-component",
@@ -16,10 +16,11 @@
     "mentions",
     "textInput"
   ],
-  "author": "Harshana Abeyaratne <harshana.abeyaratne@gmail.com> (https://github.com/harshq)",
+  "author": "Harshana Abeyaratne <harshana.abeyaratne@gmail.com> (https://github.com/fddayan)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/harshq/react-native-mentions/issues"
+    "url": "https://github.com/fddayan/react-native-mentions/issues"
   },
-  "homepage": "https://github.com/harshq/react-native-mentions#readme"
+  "homepage": "https://github.com/fddayan/react-native-mentions#readme",
+  "dependencies": {}
 }
