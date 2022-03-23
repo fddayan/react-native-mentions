@@ -58,6 +58,7 @@ export default class MentionsTextInput extends Component {
     Animated.timing(this.state.suggestionRowHeight, {
       toValue: height ? height : this.props.suggestionRowHeight,
       duration: 100,
+      useNativeDriver: true
     }).start();
   }
 
@@ -65,6 +66,7 @@ export default class MentionsTextInput extends Component {
     Animated.timing(this.state.suggestionRowHeight, {
       toValue: 0,
       duration: 100,
+      useNativeDriver: true
     }).start();
   }
 
@@ -158,8 +160,8 @@ MentionsTextInput.propTypes = {
   keyExtractor: PropTypes.func.isRequired,
   horizontal: PropTypes.bool,
   suggestionRowHeight: PropTypes.number.isRequired,
-  MaxVisibleRowCount: function(props, propName, componentName) {
-    if(!props.horizontal && !props.MaxVisibleRowCount) {
+  MaxVisibleRowCount: function (props, propName, componentName) {
+    if (!props.horizontal && !props.MaxVisibleRowCount) {
       return new Error(
         `Prop 'MaxVisibleRowCount' is required if horizontal is set to false.`
       );
